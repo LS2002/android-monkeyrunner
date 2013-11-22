@@ -24,12 +24,12 @@ A simple tool running on Mac to test music recognition of multiple applications 
 	$adb pull /data/app/com.melodis.midomiMusicIdentifier.freemium-2.apk
 	$adb pull /data/app/com.shazam.android-2.apk
 9. Open another Terminal and run below command
-	# run all tests in a row
+	* run all tests in a row
 	$python qc.py
 
-	# run individual test
+	* run individual test
 	$python qc.py shazam
 	$python qc.py soundhound
 
-	# run combination test
+	* run combination test
 	$python qc.py shazam soundhound
